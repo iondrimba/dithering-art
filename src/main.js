@@ -1,5 +1,5 @@
-import './style.css'
-import viteLogo from '/vite.svg'
+import './style.css';
+import viteLogo from '/vite.svg';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -8,4 +8,4 @@ document.querySelector('#app').innerHTML = `
     </a>
     <h1>Hello Vite!</h1>
   </div>
-`
+`;
