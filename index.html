@@ -1,13 +1,23 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dithering Effect</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dithering Effect</title>
+</head>
+
+<body>
+  <video id="video" autoplay loop muted crossorigin>
+    <source src="sculpture.mp4" type="video/mp4" />
+  </video>
+  <canvas id="canvas"></canvas>
+  <canvas id="canvasoff"></canvas>
+  <canvas id="canvasvideo"></canvas>
+  <img id="img" src="first.jpg" alt="First Image" height="480" />
+
+  <script type="module" src="src/main.js"></script>
+</body>
+
 </html>

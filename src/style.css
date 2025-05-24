@@ -1,0 +1,29 @@
+body,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+video {
+  position: absolute;
+  visibility: hidden;
+  width: 640px;
+  z-index: 1;
+  border-radius: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.tp-dfwv {
+  position: fixed !important;
+}
