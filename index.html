@@ -9,13 +9,15 @@
 </head>
 
 <body>
-  <video id="video" autoplay loop muted crossorigin>
-    <source src="sculpture.mp4" type="video/mp4" />
-  </video>
-  <canvas id="canvas"></canvas>
-  <canvas id="canvasoff"></canvas>
-  <canvas id="canvasvideo"></canvas>
-  <img id="img" src="first.jpg" alt="First Image" height="480" />
+  <div id="container">
+    <img id="img" src="public/third.jpg" alt="First Image" width="1024" />
+    <canvas id="canvas"></canvas>
+    <canvas id="canvasoff"></canvas>
+    <canvas id="canvasvideo"></canvas>
+    <video id="video" autoplay loop muted crossorigin>
+      <source src="sculpture.mp4" type="video/mp4" />
+    </video>
+  </div>
 
   <script type="module" src="src/main.js"></script>
 </body>

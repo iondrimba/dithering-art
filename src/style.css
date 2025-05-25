@@ -2,6 +2,12 @@ body,
 img {
   margin: 0;
   padding: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#container {
+  display: flex;
 }
 
 #canvas {
@@ -10,14 +16,20 @@ img {
   top: 0;
 }
 
+#canvasoff,
+#canvasvideo,
+#video {
+  display: none;
+}
+
+
 .hidden {
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 video {
-  position: absolute;
-  visibility: hidden;
-  width: 640px;
+  /* position: absolute; */
+  /* visibility: hidden; */
   z-index: 1;
   border-radius: 0;
   bottom: 0;
